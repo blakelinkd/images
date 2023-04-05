@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpage Layout</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        background-color: #1a202c;
+        color: #fff;
+        padding: 20px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      .nav {
+        background-color: #e2e8f0;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+
+      .nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+      }
+
+      .nav li {
+        margin-right: 20px;
+      }
+
+      .nav li:last-child {
+        margin-right: 0;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: #1a202c;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .sidebar {
+        width: 30%;
+        background-color: #e2e8f0;
+        padding: 20px;
+      }
+
+      .sidebar h2 {
+        margin-top: 0;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .content {
+        width: 65%;
+        background-color: #f7fafc;
+        padding: 20px;
+      }
+
+      .content h2 {
+        margin-top: 0;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .content p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .footer {
+        background-color: #1a202c;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Webpage Layout</h1>
+    </header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#">Sign In</a>
+    </nav>
+    <main class="main">
+      <div class="sidebar">
+        <h2>Categories</h2>
+        <ul>
+          <li>Category 1</li>
+          <li>Category 2</li>
+          <li>Category 3</li>
+          <li>Category 4</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2>Article Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec convallis metus. Etiam molestie venenatis velit, a hendrerit ipsum efficitur quis. Nullam sagittis diam a augue rhoncus dignissim. In in fermentum libero. Praesent sed sapien massa. Nullam laoreet id orci eget hendrerit.
+        </p>
+        <p>Maecenas laoreet euismod lacus, vel pretium risus interdum a. Maecenas convallis posuere sapien, nec pellentesque ipsum. Aliquam at turpis vel nulla luctus tincidunt nec non nibh. Curabitur sit amet massa non leo consequat faucibus vel id justo. Morbi molestie eget mi vitae lobortis. In imperdiet, nunc vitae pretium fermentum, odio velit pharetra sapien, a dictum urna turpis a mauris. Sed non velit mauris. Aliquam dignissim eros in tincidunt dignissim. Ut eu neque tincidunt, fringilla elit eget, cursus elit. Curabitur at semper ex, vel iaculis sapien. Etiam sit amet nulla vel orci bibendum faucibus.</p>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2022 Webpage Layout. All rights reserved.</p>
+    </footer>
+      </body>
+    </html>
